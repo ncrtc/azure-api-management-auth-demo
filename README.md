@@ -1,4 +1,4 @@
-# azure-api-management-auth-demo
+# Azure API Management Authentication 
 
 ## Client Credential Flow for application to application scenarios
 
