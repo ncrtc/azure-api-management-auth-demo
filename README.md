@@ -1,5 +1,19 @@
 # Azure API Management Authentication 
 
+## Create Sample API
+
+If you aren't an API developer and want to test the authentication scenarios, follow the guide [here](https://docs.microsoft.com/en-us/azure/api-management/import-and-publish).
+
+Quick start steps are:
+1. Navigate to APIs
+2. Add an OpenAPI api
+3. Spec is here: https://conferenceapi.azurewebsites.net?format=json 
+4. suffix is conference
+5. Click "create" 
+6. Using postman, perform a GET request against "https://{apim-instance-name}.azure-api.net/conference/speakers.
+  * You will need to add a header with teh key ocp-apim-subscription-key. You can find this value under [subscriptions](https://docs.microsoft.com/en-us/azure/api-management/api-management-subscriptions#subscriptions-for-all-apis-or-an-individual-api) in API Management.
+7. You should get an HTTP200 plus a body with a bunch of simulated speaker data.
+
 ## Client Credential Flow for application to application scenarios
 
 ### 1. Create App Registration for API
