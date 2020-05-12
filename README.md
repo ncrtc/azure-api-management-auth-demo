@@ -241,3 +241,8 @@ Using the information from the client token add JWT validation rule to API Manag
     </required-claims>
 </validate-jwt>
 ```
+
+## References
+- https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-protect-backend-with-aad
+- https://pacodelacruz.io/2019/07/09/oauth2-client-credentials-flow-on-azure-api-management
+- https://docs.microsoft.com/en-us/azure/api-management/api-management-access-restriction-policies#ValidateJWT
