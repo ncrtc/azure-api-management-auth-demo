@@ -8,6 +8,17 @@
 
 ## 3. Get token for Client App
 
+``` HTTP
+POST /{tenant}/oauth2/v2.0/token HTTP/1.1           //Line breaks for clarity
+Host: login.microsoftonline.com
+Content-Type: application/x-www-form-urlencoded
+
+client_id={clientAppID}
+&scope=api://{apiAppID}/.default
+&client_secret={clientAppSeceret}
+&grant_type=client_credentials
+```
+
 ## 4. Add JWT validation in API Management
 
 ```xml
