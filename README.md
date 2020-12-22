@@ -256,6 +256,10 @@ Using the information from the client token add JWT validation rule to API Manag
 </validate-jwt>
 ```
 
+## Advanced Scenarios
+
+- [Route based on JWT Claim](https://github.com/ncrtc/azure-api-management-auth-demo/blob/master/route-based-on-jwt-claim.md)
+
 ## References
 - https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-protect-backend-with-aad
 - https://pacodelacruz.io/2019/07/09/oauth2-client-credentials-flow-on-azure-api-management
